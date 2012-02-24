@@ -1,0 +1,71 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<title>PoNIEbot</title>
+<link type="text/css" href="styles.css" media="screen" rel="stylesheet"></head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+<div id="left">
+<img src="roverlogo.png">
+<div id="cam">
+
+<object id="liveStream" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" type="application/x-shockwave-flash" height="360" width="480">
+<param name="movie" value="http://69.10.54.177/cgi-bin/nph-zms?mode=mpeg&amp;monitor=6&amp;scale=200&amp;bitrate=150000&amp;maxfps=30&amp;format=swf&amp;buffer=1&amp;connkey=217268&amp;rand=1329811284">
+<param name="quality" value="high">
+<param name="bgcolor" value="#ffffff">
+<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="nph-zms.swf" name="PoNIEcam" quality="high" bgcolor="#ffffff" <="" embed="" height="360" width="480">
+</object>
+
+</div>
+<div id="controls">
+<center>
+
+<table align="center" border="0" cellpadding="0" cellspacing="1" height="159" width="232">
+  <tbody><tr>
+    <td align="center" height="74" valign="middle" width="74">&nbsp;</td>
+    <td align="center" height="74" valign="middle" width="74">
+    <img id="w" class="arrow" src="key_w.png" border="0" height="60" hspace="5" vspace="5" width="60"></td>
+    <td align="center" height="74" valign="middle" width="74">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" height="74" valign="middle" width="74">
+    <img id="a" src="key_a.png" class="arrow"  border="0" height="60" hspace="5" vspace="5" width="60"></td>
+    <td align="center" height="74" valign="middle" width="74">
+    <img id="s" src="key_s.png" class="arrow"  border="0" height="60" hspace="5" vspace="5" width="60"></td>
+    <td align="center" height="74" valign="middle" width="74">
+    <img id="d" src="key_d.png" class="arrow"  border="0" height="60" hspace="5" vspace="5" width="60"></td>
+  </tr>
+</tbody></table>
+</center>
+
+<script type="text/javascript">
+
+$('#.arrow').mousedown(function(event){
+	$.get('http://10.55/k.php?key='+event.which+'&what=down',function(data){});
+});
+
+</script>
+
+
+
+</div>
+</div>
+
+<div id="right">
+<div id="menu">
+</div>
+
+<div id="chat">
+<object id="obj_1329698915685" height="360" width="300"><param name="movie" value="http://poniechat.chatango.com/group"><param name="AllowScriptAccess" value="always"><param name="AllowNetworking" value="all"><param name="AllowFullScreen" value="false"><param name="flashvars" value="cid=1329698915685&amp;b=100&amp;c=666666&amp;d=666666&amp;g=333333&amp;j=333333&amp;k=FFFFFF&amp;l=CCCCCC&amp;m=FFFFFF&amp;s=1"><embed id="emb_1329698915685" src="newpage2_files/group.swf" allowscriptaccess="never" allownetworking="false" type="application/x-shockwave-flash" allowfullscreen="false" flashvars="cid=1329698915685&amp;b=100&amp;c=666666&amp;d=666666&amp;g=333333&amp;j=333333&amp;k=FFFFFF&amp;l=CCCCCC&amp;m=FFFFFF&amp;s=1" height="360" width="300"></object>
+</div>
+<div id="control2">
+</div>
+</div>
+</div>
+
+
+
+</body></html>

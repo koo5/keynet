@@ -1,0 +1,106 @@
+.arrow {
+border-top:    5px  solid #326eb6; 
+border-bottom: 5px  solid #326eb6; 
+border-left:   2px   solid #326eb6; 
+border-right:  2px  solid #326eb6; 
+}
+
+
+body {
+	margin: 5px;
+	padding: 5px;
+	background-color: 012146;
+}
+
+#container {
+	width: 825px;
+	height: 645px;
+	background-color: 04336C;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 5px;
+}
+
+#cam {
+	background-color:  326eb6;
+	width: 480px;
+	height:  360px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+}
+
+#camframe {
+	width: 480px;
+	height:  360px;
+	border: 1px;
+}
+
+#controls {
+	background-color:  326eb6;
+	width: 480px;
+	height:  140px;
+	margin-top: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+	line-height: 2px;
+	color: #000000;
+}
+
+#menu {
+        background-color: 04336C; 
+        width: 300px;
+        height:  75px;
+        margin-top: 5px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 10px;
+}
+
+#chat {
+	background-color:  326eb6;
+	width: 300px;
+	height: 360px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+}
+
+#controls2 {
+        background-color:  326eb6;
+        width: 300px;
+        height: 140px;
+        margin-top: 5px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 10px;
+		line-height:2px;
+}
+
+
+#left {
+	display: inline;
+	clear: left;
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#chatexample {
+	background-color:  #fff;
+	width: 525px;
+	height:  525px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 5px;
+}
